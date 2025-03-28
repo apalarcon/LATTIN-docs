@@ -96,6 +96,7 @@ If you have a problem with the `mpi4py` library, try these steps:
 - If the problem continue (the problem is frequently related with the `libmpi.so.12`  or similar), you can also try
 
 Search the mising library on your system and link it to your Anaconda lib path.
+
 .. code-block:: bash
 
     ln -s path_to_missing_library/libmpi.so.12 patho_to_anaconda_installation/lib/
