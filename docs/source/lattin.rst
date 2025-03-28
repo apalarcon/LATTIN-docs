@@ -13,5 +13,4 @@ LATTIN 1.0.4
    :deprecated: No
    :private: No
 
-Below is the description of the functions within the main LATTINB module, 
-specifically in the *trova.py* script.
+Below is the description of the functions within the main lattin functions.
