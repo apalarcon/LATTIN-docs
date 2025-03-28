@@ -87,11 +87,11 @@ NOTE: From now on it must have been installed in the python environment and can 
 Possible problems with python packages:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have a problem with the `mpi4py`` library, try these steps:
+If you have a problem with the `mpi4py` library, try these steps:
 
-- Remove the `mpi4py`` library conda remove `mpi4py``
-- Install the `openmpi`` library `conda install conda-forge::openmpi`` 
-- Install again the `mpi4py`` library conda install `mpi4py`
+- Remove the `mpi4py` library conda remove `mpi4py`
+- Install the `openmpi` library `conda install conda-forge::openmpi`
+- Install again the `mpi4py` library conda install `mpi4py`
 - If the problem continue (the problem is frequently related with the `libmpi.so.12`  or similar), you can also try
 
 Search the mising library on your system and link it to your Anaconda lib path.
