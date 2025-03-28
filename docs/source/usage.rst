@@ -49,6 +49,6 @@ Create a bash script (run_lattin.sh). This example is valid for FINESTARRAE III 
 .. code-block:: bash
    sbatch run_lattin.sh
 
-- N_proc: The number of processor should be divisible by 4.
+- N_proc: The number of processors should be divisible by 4.
 
 
