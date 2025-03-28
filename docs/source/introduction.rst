@@ -2,8 +2,8 @@
 LATTIN: Lagrangian Atmospheric moisTure and heaT trackINg
 =================================
 Lagrangian Atmospheric moisTure and heaT trackINg (LATTINv1.0.4) is a software developed in Python and Fortran
-for the study of moisture sources and sinks. It has been developed within the LAGRIMA and 
-SETESTRELO projects at the EPhysLab (Environmental Physics Laboratory) at the University of Vigo. 
+for the study of moisture and heat sources. It has been developed within the 
+SETESTRELO project at the EPhysLab (Environmental Physics Laboratory) at the University of Vigo. 
 
 
 .. code-block:: none
