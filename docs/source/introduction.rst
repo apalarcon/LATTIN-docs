@@ -20,7 +20,7 @@ SETESTRELO projects at the EPhysLab (Environmental Physics Laboratory) at the Un
    ||       <<======================================================================>>        ||
    ============================================================================================
 
-TROVA Software architecture 
+LATTIN Software
 ------------------------------------
 
 .. image:: _static/LogoV1.png
