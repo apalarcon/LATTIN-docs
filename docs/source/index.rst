@@ -1,7 +1,4 @@
-.. LATTIN documentation master file, created by
-   sphinx-quickstart on Thu Feb 13 10:59:34 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. LATTIN documentation 
 
 Welcome to LATTIN's documentation!
 =================================
@@ -18,5 +15,5 @@ Welcome to LATTIN's documentation!
    support
    license
    citation
-   trova
+   lattin
    release
