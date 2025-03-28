@@ -10,9 +10,9 @@ To run LATTIN, create a file with the following code (could be **run_lattin.py**
 
    #!/usr/bin/env python3
   import lattin as lt
-   import sys
+  import sys
 
-   lt.lattin_main(sys.argv[1])
+  lt.lattin_main(sys.argv[1])
 
 Once this code is created, LATTIN can be run as follows:
 
