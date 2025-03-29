@@ -29,7 +29,34 @@ dfdfdf
 
 
 
+.. list-table:: **Moisture Transport Methods Comparison**
+   :widths: 15 20 15 10 10 15 10 20
+   :header-rows: 2
 
+   * - **Method**
+     - **Precipitating Parcels at Target Region**
+     - **Moisture Uptake**
+     -  
+     -  
+     - **Moisture Losses**
+     -  
+     - **Reference**
+   * - 
+     - 
+     - **Δq (g/kg)**
+     - **|ΔRH| (%)**
+     - **ABL**
+     - **Δq (g/kg)**
+     - **RH (%)**
+     - 
+   * - SJ05
+     - -
+     - -
+     - -
+     - no
+     - -
+     - -
+     - Stohl and James (2005)
 
 
 
