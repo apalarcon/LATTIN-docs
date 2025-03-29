@@ -19,6 +19,7 @@ Moisture tracking methods
 
 Overview of threshold parameters for identifying moisture sources for precipitation events. The * symbol indicates mean value of the variable. These threshold
 values have been obtained for Δt = 6 h.
+
 +------------+-----------------------+-------------------------------------------------+------------------------------------+----------------------------+
 |            | Precipitating parcels |     **Moisture uptake**                         |      **Moisture losses**           |                            |
 | **Method** | at target region      +-----------------+-------------------+-----------+-------------------+----------------+      **Reference**         |
@@ -44,6 +45,7 @@ Heat tracking methods
 
 Overview of threshold parameters for heat tracking. In SCH19, the condition of the ABL must be satisfied at time t and t-6. These threshold
 values have been obtained for Δt = 6 h.
+
 +------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
 |**Method**  | Air parcels are warmed if  | **|Δq| (%)**    | **|ΔRH| (%)**     | **ABL**         | **Reference**                 |                     
 +------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
