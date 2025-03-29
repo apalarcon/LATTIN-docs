@@ -26,7 +26,7 @@ Once this code is created, LATTIN can be run as follows:
 
 2- On a HPC with Linux: 
 
-Create a bash script (run_lattin.sh). This example is valid for FINESTARRAE III cluster at the Galician Supercomputing Center.
+Create a bash script (**run_lattin.sh**). This example is valid for FINESTARRAE III cluster at the Galician Supercomputing Center.
 
 .. code-block:: bash
 
