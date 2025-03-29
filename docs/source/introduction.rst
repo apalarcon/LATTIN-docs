@@ -17,7 +17,7 @@ LATTIN is a Python-based tool for Lagrangian atmospheric moisture and heat track
 Moisture tracking methods
 -------------------------
 
-Overview of threshold parameters for identifying moisture sources for precipitation events. The * symbol indicates mean value of the variable. These threshold
+The following Table displays an overview of threshold parameters for identifying moisture sources for precipitation events. The * symbol indicates mean value of the variable. These threshold
 values have been obtained for Δt = 6 h.
 
 +------------+-----------------------+-------------------------------------------------+------------------------------------+----------------------------+
@@ -43,8 +43,8 @@ values have been obtained for Δt = 6 h.
 Heat tracking methods
 -------------------------
 
-Overview of threshold parameters for heat tracking. In SCH19, the condition of the ABL must be satisfied at time t and t-6. These threshold
-values have been obtained for Δt = 6 h.
+Heat tracking is based on the dry static energy (DSE) or potential temperature (θ).The following table shows an overview of threshold parameters for heat tracking. In SCH19, the condition of the atmospheric boundary layer (ABL) must be satisfied at time t and t-6. These threshold
+values have been obtained for Δt = 6 h. 
 
 +------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
 |**Method**  | Air parcels are warmed if  | **|Δq| (%)**    | **|ΔRH| (%)**     | **ABL**         | **Reference**                 |                     

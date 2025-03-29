@@ -13,4 +13,4 @@ LATTIN 1.0.4
    :deprecated: No
    :private: No
 
-Below is the description of the functions within the main lattin functions.
+
