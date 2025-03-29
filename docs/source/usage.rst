@@ -16,7 +16,8 @@ To run LATTIN, create a file with the following code (could be **run_lattin.py**
 
 Once this code is created, LATTIN can be run as follows:
 
-1- On a Linux computer:
+On a Linux computer
+----------------------
 
 .. code-block:: bash
 
@@ -24,7 +25,8 @@ Once this code is created, LATTIN can be run as follows:
 
    e.g:  mpirun -np 4 python run_lattin.py test_case.cfg
 
-2- On a HPC with Linux: 
+On a HPC with Linux
+----------------------
 
 Create a bash script (**run_lattin.sh**). This example is valid for FINESTARRAE III cluster at the Galician Supercomputing Center.
 
@@ -52,3 +54,7 @@ Create a bash script (**run_lattin.sh**). This example is valid for FINESTARRAE 
 - N_proc: The number of processors should be divisible by 4.
 
 
+.. note::
+
+   LATTIN could run under Windows if you have installed the Anaconda distribution. This case has not been tested yet.
+   If you have any problem, please contact us.
