@@ -10,8 +10,7 @@ Welcome to LATTIN's documentation!
    introduction
    installation
    usage
-   example_climate
-   example
+   namelist
    support
    license
    citation
