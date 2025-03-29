@@ -42,6 +42,7 @@ Installation
 **1 - First Method**
 
 .. code-block:: bash
+    
     conda install -c tramo-ephyslab lattin
 
 If you install LATTIN using conda, the first time you import lattin, it automatically will compile the FORTRAN subroutines. Therefore, we strongly recommend typing the following sentences in terminal after the LATTIN installation.
