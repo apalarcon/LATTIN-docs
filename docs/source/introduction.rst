@@ -17,8 +17,8 @@ LATTIN is a Python-based tool for Lagrangian atmospheric moisture and heat track
 Moisture tracking methods
 -------------------------
 
-dfdfdf
-
+Overview of threshold parameters for identifying moisture sources for precipitation events. The * symbol indicates mean value of the variable. These threshold
+values have been obtained for Δt = 6 h.
 +------------+-----------------------+-------------------------------------------------+------------------------------------+----------------------------+
 |            | Precipitating parcels |     **Moisture uptake**                         |      **Moisture losses**           |                            |
 | **Method** | at target region      +-----------------+-------------------+-----------+-------------------+----------------+      **Reference**         |
@@ -37,6 +37,31 @@ dfdfdf
 +------------+-----------------------+-----------------+-------------------+-----------+-------------------+----------------+----------------------------+
 | APA22      |  Δq < -0.1            | Δq > 0          |        -          | no        |      Δq < 0       |     -          | Pérez-Alarcón et al (2022) |
 +------------+-----------------------+-----------------+-------------------+-----------+-------------------+----------------+----------------------------+
+
+
+Heat tracking methods
+-------------------------
+
+Overview of threshold parameters for heat tracking. In SCH19, the condition of the ABL must be satisfied at time t and t-6. These threshold
+values have been obtained for Δt = 6 h.
++------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
+|**Method**  | Air parcels are warmed if  | **|Δq| (%)**    | **|ΔRH| (%)**     | **ABL**         | **Reference**                 |                     
++------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
+|SCH19       | ΔDSE >1 kJ                 |  < 10           |  -                | z<ABL_max       |  Schumacher et al. (2019)     |                     
++------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
+|SCH20       | ΔDSE >1 kJ                 |  -              |  -                | z<ABL_max       | Schumacher et al. (2020)      |                     
++------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
+|JK22        | Δθ >   0 K                 |  -              |  < 10             | z<ABL_max       |  Keune et al. (2022)          |                     
++------------+----------------------------+-----------------+-------------------+-----------------+-------------------------------+
+
+The following figure shows the flowchart of the LATTIN algorithm.
+
+.. image:: _static/Flowchart.png
+   :alt: LATTIN Flowchart
+   :align: center
+   :width: 400px
+
+
 
 
 For a more detailed understanding of LATTIN, Please refer to 
@@ -59,6 +84,12 @@ https://doi.org/10.5194/gmd-15-1875-2022
 
 Pérez-Alarcón A, Sorí R, Fernández-Alvarez JC, Nieto R, Gimeno L (2022). Where does the moisture for North Atlantic tropical 
 cyclones come from?. J. Hydrometeorol., 23:457–472. https://doi.org/10.1175/JHM-D-21-0117.1.
+
+Schumacher, D.L., Keune, J., Van Heerwaarden, C.C., Vilà-Guerau de Arellano, J., Teuling, A.J., Miralles, D.G. (2019). Amplification 
+of mega-heatwaves through heat torrents fuelled by upwind drought. Nat. Geosci., 12, 712–717. https://doi.org/10.1038/s41561-019-0431-6.
+
+Schumacher, D. L., Keune, J., Miralles, D. G. (2020). Atmospheric heat and moisture transport to energy‐and water‐limited ecosystems.
+Ann. NY Acad. Sci., 1472, 123–138. https://doi.org/10.1111/nyas.14357
 
 Sodemann H, Schwierz C, Wernli H. (2008). Interannual variability of Greenland winter precipitation sources: 
 Lagrangian moisture diagnostic and North Atlantic Oscillation influence. J. Geophys. Res.-Atmos.; 
