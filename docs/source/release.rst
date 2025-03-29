@@ -11,6 +11,8 @@ v.1.0.4 (2024-07-14)
 
 - Improve the Fortran subroutine to read the FLEXPARTv9+ and FLEXPART-WRFv3.3.2 binary files.
 
+- Documentation: https://lattin-docs.readthedocs.io/en/v1.0.4/
+
 v.1.0.1 (2024-02-26)
 ~~~~~~~~~~~~~~~~~~
 
