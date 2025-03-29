@@ -14,7 +14,7 @@ To run LATTIN, you need
 - `Fortran <https://fortran-lang.org/>`__ 
 
 
-The main Python packages that must be installed are the following (consider using the proposed options):
+The main Python packages that must be installed are the following:
 
 - `netCDF4`
 - `numpy` 
@@ -39,7 +39,8 @@ The main Python packages that must be installed are the following (consider usin
 Installation
 ------------------
 
-1 - First Method
+**1 - First Method**
+
 .. code-block:: bash
     conda install -c tramo-ephyslab lattin
 
@@ -65,7 +66,7 @@ To knnow the exactly path of your Anaconda installation (`patho_to_anaconda_inst
    from distutils.sysconfig import get_python_lib
    print(get_python_lib())
 
-2- Second Method
+**2- Second Method**
   
 You must check that all the packages are installed and that there is no error message when they are imported.
 
@@ -82,8 +83,8 @@ You must check that all the packages are installed and that there is no error me
 
     sh run install_lattin.sh
 
-
-NOTE: From now on it must have been installed in the python environment and can be used directly like any library.
+.. note::
+    From now on it must have been installed in the python environment and can be used directly like any library.
 
 Possible problems with python packages:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
