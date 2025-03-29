@@ -14,6 +14,22 @@ SETESTRELO project at the EPhysLab (Environmental Physics Laboratory) at the Uni
 
 LATTIN is a Python-based tool for Lagrangian atmospheric moisture and heat tracking
 
+Moisture tracking methods
+-------------------------
+
++-------------------------------------------+-------------------+-------------------+-------------------+-------------------+
+| **Method** | Precipitating parcels   |     **Moisture uptake**             |       Moisture losses      |                 |         
+|            |   at target region      | **Δq (g/kg)** | **|ΔRH| (%)** | ABL | **Δq (g/kg)** | **RH (%)** |  Reference      |
++-------------------------------------------+-------------------+-------------------+-------------------+-------------------+
+|  SJ05      |         -               |      -        |        -      |  no |       -       |     -      |  Stohl and James (2005) |
++-------------------------------------------+-------------------+-------------------+-------------------+-------------------+
+
+
+
+
+
+
+
 
 For a more detailed understanding of LATTIN, Please refer to 
 
