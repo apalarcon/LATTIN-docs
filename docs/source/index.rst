@@ -9,8 +9,8 @@ Welcome to LATTIN's documentation!
 
    introduction
    installation
-   usage
    namelist
+   usage
    support
    license
    citation
