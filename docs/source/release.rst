@@ -4,7 +4,7 @@ What’s New
 Releases
 --------
 
-Github:  https://github.com/apalarcon/LATTIN
+GitHub:  https://github.com/apalarcon/LATTIN
 
 
 v.1.0.4 (2024-07-14)
