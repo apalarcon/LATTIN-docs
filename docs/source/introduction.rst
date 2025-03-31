@@ -6,12 +6,6 @@ for the study of moisture and heat sources. It has been developed within the
 SETESTRELO project at the EPhysLab (Environmental Physics Laboratory) at the University of Vigo. 
 
 
-.. image:: _static/LogoV1.png
-   :alt: Logo de LATTIN
-   :align: center
-   :width: 400px
-
-
 LATTIN is a Python-based tool for Lagrangian atmospheric moisture and heat tracking
 
 Moisture tracking methods
