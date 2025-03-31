@@ -20,7 +20,7 @@ Welcome to the documentation of the LATTIN code. LATTIN can be used for tracking
 
 - To cite the code, use the software citation information for the appropriate version of the code
 
-- Visit the quickstart page for a high-level overview of how to use wam2layers.
+- Visit the Run LATTIN page for a high-level overview of how to use LATTIN.
 
 - For more information on how to use, browse this documentation.
 
